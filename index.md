@@ -26,11 +26,12 @@ Only when you ask for a verdict and only after you allowed it:
 
 | Recipient | What | Why |
 |---|---|---|
+| **Our relay server** (run on Cloudflare) | everything in the TypeSafe row, passed straight through and not stored or logged; your IP address, as with any web request, not stored; a random key your iPhone creates when the app is installed, which proves the request comes from the genuine app. We keep that key with a count of today's requests to limit misuse. It is not linked to you and is replaced when you reinstall the app | to protect the service from misuse and forward the request to TypeSafe |
 | **TypeSafe** ([typesafe.ai](https://typesafe.ai)), which runs the model behind "Instinct" | the meal in words and the time; your age, sex and height; current and target weight and weekly pace; today's steps, stand minutes and latest workout, last night's sleep and sleep score, your most recent VO₂ max; today's weather; the meals you already logged today with their verdicts | to produce the verdict for that meal |
 | **ipinfo.io** | your IP address | to find an approximate city for the weather |
 | **Apple (WeatherKit)** | that approximate location | to get the day's forecast |
 
-No name, email, device identifier or advertising identifier is sent. Each recipient processes the data only to answer the request, under its own terms and privacy policy: [TypeSafe](https://typesafe.ai/privacy-policy), [ipinfo.io](https://ipinfo.io/privacy-policy), [Apple](https://www.apple.com/legal/privacy/). TypeSafe states that it does not train or fine-tune AI models on what it receives. TypeSafe and ipinfo.io process data in the United States, so if you use PlateCall outside the US, this data is transferred there. We require each recipient to protect the data at least as well as this policy does.
+No name, email, hardware identifier or advertising identifier is sent; the only identifier is the random app key above, which goes to our relay only. Each recipient processes the data only to answer the request, under its own terms and privacy policy: [Cloudflare](https://www.cloudflare.com/privacypolicy/) (for our relay), [TypeSafe](https://typesafe.ai/privacy-policy), [ipinfo.io](https://ipinfo.io/privacy-policy), [Apple](https://www.apple.com/legal/privacy/). TypeSafe states that it does not train or fine-tune AI models on what it receives. Cloudflare handles each request at a data centre near you, and TypeSafe and ipinfo.io process data in the United States, so if you use PlateCall outside the US, this data is transferred there. We require each recipient to protect the data at least as well as this policy does.
 
 Purchases are handled by Apple; we receive only whether your subscription is active, never your payment details.
 
@@ -39,7 +40,7 @@ Purchases are handled by Apple; we receive only whether your subscription is act
 - **Turn off sending:** Settings › About › Get Meal Verdicts. Nothing is sent afterwards; you can keep logging meals without verdicts.
 - **Apple Health:** change access in the Health app › Sharing › Apps, or in Settings › Apple Health.
 - **Microphone:** iOS Settings › PlateCall. You can always type instead.
-- **Delete your data:** deleting the app removes everything stored by it except the free-verdict counter. We never receive the meals or health data you send for a verdict, and nothing sent carries your name or an identifier, so we cannot look it up for you. To ask about or delete data already sent, contact TypeSafe at [privacy@typesafe.ai](mailto:privacy@typesafe.ai), or ipinfo.io through its [privacy policy](https://ipinfo.io/privacy-policy).
+- **Delete your data:** deleting the app removes everything stored by it except the free-verdict counter. Our relay passes the meals and health data you send for a verdict on to TypeSafe without keeping them, and nothing sent carries your name or anything that identifies you, so we cannot look it up for you. The random app key and its daily count are replaced when you reinstall the app. To ask about or delete data already sent, contact TypeSafe at [privacy@typesafe.ai](mailto:privacy@typesafe.ai), or ipinfo.io through its [privacy policy](https://ipinfo.io/privacy-policy).
 
 ## Children
 
