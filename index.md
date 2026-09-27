@@ -1,6 +1,6 @@
-# [App name] Privacy Policy
+# PlateCall Privacy Policy
 
-Effective [date]. [Legal entity, address], ("we") publishes [App name] for iPhone and Apple Watch. Contact: [privacy email].
+Effective 27 September 2026. Sanvvy, Inc., 8 The Green #12050, Dover, DE 19901, US ("we") publishes PlateCall for iPhone and Apple Watch. Contact: [lufei.zhou@sanvvy.com](mailto:lufei.zhou@sanvvy.com).
 
 ## The short version
 
@@ -30,20 +30,20 @@ Only when you ask for a verdict and only after you allowed it:
 | **ipinfo.io** | your IP address | to find an approximate city for the weather |
 | **Apple (WeatherKit)** | that approximate location | to get the day's forecast |
 
-No name, email, device identifier or advertising identifier is sent. [Confirm TypeSafe's and ipinfo's retention and processing terms; state them here, e.g. "TypeSafe does not use requests to train models and deletes them after N days."] We require each recipient to protect the data at least as this policy does.
+No name, email, device identifier or advertising identifier is sent. Each recipient processes the data only to answer the request, under its own terms and privacy policy: [TypeSafe](https://typesafe.ai/privacy-policy), [ipinfo.io](https://ipinfo.io/privacy-policy), [Apple](https://www.apple.com/legal/privacy/). TypeSafe states that it does not train or fine-tune AI models on what it receives. TypeSafe and ipinfo.io process data in the United States, so if you use PlateCall outside the US, this data is transferred there. We require each recipient to protect the data at least as well as this policy does.
 
 Purchases are handled by Apple; we receive only whether your subscription is active, never your payment details.
 
 ## Your choices
 
-- **Turn off sending:** Settings › About › Send Meals to Be Judged. Nothing is sent afterwards; you can keep logging meals without verdicts.
-- **Apple Health:** change access in the Health app › Sharing › Apps, or in Settings › Data Sources.
-- **Microphone:** iOS Settings › [App name]. You can always type instead.
-- **Delete your data:** deleting the app removes everything stored by it except the free-verdict counter. For data already sent to TypeSafe or ipinfo.io, contact [privacy email] and we will pass the request on [or: contact them directly at …].
+- **Turn off sending:** Settings › About › Get Meal Verdicts. Nothing is sent afterwards; you can keep logging meals without verdicts.
+- **Apple Health:** change access in the Health app › Sharing › Apps, or in Settings › Apple Health.
+- **Microphone:** iOS Settings › PlateCall. You can always type instead.
+- **Delete your data:** deleting the app removes everything stored by it except the free-verdict counter. We never receive the meals or health data you send for a verdict, and nothing sent carries your name or an identifier, so we cannot look it up for you. To ask about or delete data already sent, contact TypeSafe at [privacy@typesafe.ai](mailto:privacy@typesafe.ai), or ipinfo.io through its [privacy policy](https://ipinfo.io/privacy-policy).
 
 ## Children
 
-The app is not directed at children under [13/16] and we do not knowingly collect their data.
+The app is not directed at children under 13 and we do not knowingly collect their data.
 
 ## Changes
 
@@ -51,4 +51,4 @@ We will update the effective date and, for material changes, tell you in the app
 
 ## Contact
 
-[Legal entity] · [address] · [privacy email]
+Sanvvy, Inc. · 8 The Green #12050, Dover, DE 19901, US · [lufei.zhou@sanvvy.com](mailto:lufei.zhou@sanvvy.com)
